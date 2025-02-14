@@ -1,0 +1,13 @@
+class Solution {
+  public:
+    void printList(Node *head) {
+Node* cur = head;
+    if (cur == nullptr) {
+        cout << "List is empty" << endl;
+        return;
+    }
+    while (cur != nullptr) {
+        cout << cur->data << " ";  
+        cur = cur->next;
+    }}};
+    
